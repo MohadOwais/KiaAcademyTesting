@@ -1,0 +1,429 @@
+.advanced-video-player {
+  position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+.advanced-video-player.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 9999;
+  border-radius: 0;
+}
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Loading indicator */
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top: 3px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Center play button */
+.center-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 5;
+}
+
+.center-play-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.center-play-button svg {
+  color: white;
+  margin-left: 4px;
+}
+
+/* Controls overlay */
+.controls-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4) 0%,
+    transparent 20%,
+    transparent 80%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+/* Top controls */
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  color: white;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.top-right-controls {
+  display: flex;
+  gap: 8px;
+}
+
+/* Center controls */
+.center-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 20px;
+}
+
+/* Bottom controls */
+.bottom-controls {
+  padding: 16px;
+  color: white;
+}
+
+/* Progress bar */
+.progress-container {
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: height 0.2s ease;
+}
+
+.progress-bar:hover {
+  height: 6px;
+}
+
+.progress-buffered {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  transition: width 0.1s ease;
+}
+
+.progress-played {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #ff0000;
+  border-radius: 2px;
+  transition: width 0.1s ease;
+}
+
+.progress-thumb {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background: #ff0000;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.progress-bar:hover .progress-thumb {
+  opacity: 1;
+}
+
+/* Control buttons */
+.control-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.left-controls,
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.control-button.large {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.control-button.large:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Volume controls */
+.volume-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.volume-slider {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  padding: 12px 8px;
+  margin-bottom: 8px;
+  width: 40px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.volume-track {
+  width: 4px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.volume-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ff0000;
+  border-radius: 2px;
+  transition: height 0.1s ease;
+}
+
+/* Time display */
+.time-display {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Settings menus */
+.settings-menu {
+  position: relative;
+}
+
+.settings-dropdown {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  padding: 8px 0;
+  margin-bottom: 8px;
+  min-width: 120px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.settings-option {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 16px;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  transition: background 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.settings-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.settings-option.active {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff0000;
+}
+
+.resolution {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 2px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .center-controls {
+    gap: 16px;
+  }
+  
+  .control-button.large {
+    padding: 8px;
+  }
+  
+  .control-button.large svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .top-controls,
+  .bottom-controls {
+    padding: 12px;
+  }
+  
+  .video-title {
+    font-size: 14px;
+  }
+  
+  .time-display {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .center-controls {
+    gap: 12px;
+  }
+  
+  .control-buttons {
+    gap: 8px;
+  }
+  
+  .left-controls,
+  .right-controls {
+    gap: 8px;
+  }
+  
+  .control-button {
+    padding: 6px;
+  }
+  
+  .control-button svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Focus styles for accessibility */
+.advanced-video-player:focus {
+  outline: 2px solid #ff0000;
+  outline-offset: 2px;
+}
+
+.control-button:focus {
+  outline: 2px solid #ff0000;
+  outline-offset: 2px;
+}
+
+/* Animation for controls appearance */
+.controls-overlay {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Custom scrollbar for settings dropdown */
+.settings-dropdown::-webkit-scrollbar {
+  width: 4px;
+}
+
+.settings-dropdown::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+.settings-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+.settings-dropdown::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+} 

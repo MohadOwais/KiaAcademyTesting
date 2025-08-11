@@ -1,0 +1,40 @@
+.table-cont-sts {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.mui-zxdg2z {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.courses-card-cont-admin {
+    width: 100%;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5em;
+    flex-wrap: wrap !important;
+
+    .card-course {
+        max-width: calc((100% - 4.5em)/4) !important;
+        min-width: calc((100% - 4.5em)/4) !important;
+
+        @media(max-width: 1500px) {
+            max-width: calc((100% - 3em)/3) !important;
+            min-width: calc((100% - 3em)/3) !important;
+        }
+
+        @media(max-width: 1280px) {
+            max-width: calc((100% - 1.5em)/2) !important;
+            min-width: calc((100% - 1.5em)/2) !important;
+        }
+
+        @media(max-width: 860px) {
+            max-width: calc((100%)/1) !important;
+            min-width: calc((100%)/1) !important;
+        }
+    }
+}

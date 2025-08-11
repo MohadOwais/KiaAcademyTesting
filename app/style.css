@@ -1,0 +1,256 @@
+:root {
+    --color-black: #000000;
+    --color-dark-1: #061e2f;
+    --color-dark-2: #0a3552;
+    --color-dark-3: #0f4b76;
+    --color-dark-4: #136299;
+    --color-primary: #1778bc;
+    --color-blue-1: #4693ca;
+    --color-blue-2: #74aed7;
+    --color-blue-3: #a3c9e4;
+    --color-blue-4: #d1e4f2;
+    --color-white: #ffffff;
+}
+
+.bg-gradient12 {
+    /* background-color: var(--color-dark-2) !important; */
+    background: linear-gradient(180deg, var(--color-dark-2), var(--color-dark-4)) !important;
+    /* background: linear-gradient(90deg, var(--color-primary), var(--color-blue-1)) !important; */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-2)) !important; */
+    /* background: linear-gradient(135deg, var(--color-dark-3), var(--color-dark-4)) !important; */
+    /* background: linear-gradient(-135deg, var(--color-primary), var(--color-blue-2)) !important; */
+    /* background: linear-gradient(135deg, var(--color-blue-2), var(--color-blue-3)) !important; */
+    /* background: linear-gradient(135deg, var(--color-blue-4), var(--color-white)) !important; */
+    /* background: linear-gradient(135deg, var(--color-white), var(--color-black)) !important; */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-3)) !important; */
+    /* background: linear-gradient(135deg, var(--color-primary), var(--color-dark-1)) !important; */
+}
+
+.bg-gradient1{
+    /* background-color: var(--color-dark-2) !important; */
+    background: linear-gradient(135deg, var(--color-primary), var(--color-dark-2)) !important;
+
+    /* Gradient 1: Dark to primary to blue-1 */
+    /* background: linear-gradient(135deg, var(--color-dark-2), var(--color-primary), var(--color-blue-1)) !important; */
+
+    /* Gradient 2: Dark range */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-3), var(--color-dark-4)) !important; */
+
+    /* Gradient 3: Dark-3 to primary to blue-2 */
+    /* background: linear-gradient(135deg, var(--color-dark-3), var(--color-primary), var(--color-blue-2)) !important; */
+
+    /* Gradient 4: Primary to blue-1 to blue-3 */
+    /* background: linear-gradient(135deg, var(--color-primary), var(--color-blue-1), var(--color-blue-3)) !important; */
+
+    /* Gradient 5: Dark-2 to primary to blue-2 to blue-4 */
+    /* background: linear-gradient(135deg, var(--color-dark-2), var(--color-primary), var(--color-blue-2), var(--color-blue-4)) !important; */
+
+    /* Gradient 6: Dark-1 to dark-3 to blue-1 to blue-3 */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-3), var(--color-blue-1), var(--color-blue-3)) !important; */
+
+    /* Gradient 7: Dark-4 to primary to blue-2 to white */
+    /* background: linear-gradient(135deg, var(--color-dark-4), var(--color-primary), var(--color-blue-2), var(--color-white)) !important; */
+
+    /* Gradient 8: Primary to blue-1 to blue-3 to blue-4 */
+    /* background: linear-gradient(135deg, var(--color-primary), var(--color-blue-1), var(--color-blue-3), var(--color-blue-4)) !important; */
+
+    /* Gradient 9: Dark-2 to dark-4 to primary to blue-1 */
+    /* background: linear-gradient(135deg, var(--color-dark-2), var(--color-dark-4), var(--color-primary), var(--color-blue-1)) !important; */
+
+    /* Gradient 10: Dark-3 to primary to blue-2 to white */
+    /* background: linear-gradient(135deg, var(--color-dark-3), var(--color-primary), var(--color-blue-2), var(--color-white)) !important; */
+}
+/* Background color classes */
+.bg-black {
+    background-color: var(--color-black) !important;
+}
+.bg-dark-1 {
+    background-color: var(--color-dark-1) !important;
+}
+.bg-dark-2 {
+    background-color: var(--color-dark-2) !important;
+}
+.bg-dark-3 {
+    background-color: var(--color-dark-3) !important;
+}
+.bg-dark-4 {
+    background-color: var(--color-dark-4) !important ;
+}
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+.bg-blue-1 {
+    background-color: var(--color-blue-1) !important;
+}
+.bg-blue-2 {
+    background-color: var(--color-blue-2) !important;
+}
+.bg-blue-3 {
+    background-color: var(--color-blue-3) !important;
+}
+.bg-blue-4 {
+    background-color: var(--color-blue-4) !important;
+}
+.bg-white {
+    background-color: var(--color-white) !important;
+}
+
+/* Text color classes */
+.text-black {
+    color: var(--color-black) !important;
+}
+.text-dark-1 {
+    color: var(--color-dark-1) !important;
+}
+.text-dark-2 {
+    color: var(--color-dark-2) !important;
+}
+.text-dark-3 {
+    color: var(--color-dark-3) !important;
+}
+.text-dark-4 {
+    color: var(--color-dark-4) !important;
+}
+.text-primary {
+    color: var(--color-primary) !important;
+}
+.text-blue-1 {
+    color: var(--color-blue-1) !important;
+}
+.text-blue-2 {
+    color: var(--color-blue-2) !important;
+}
+.text-blue-3 {
+    color: var(--color-blue-3) !important;
+}
+.text-blue-4 {
+    color: var(--color-blue-4) !important;
+}
+.text-white {
+    color: var(--color-white) !important;
+}
+
+/* Border color classes */
+.border-black {
+    border: 1px solid var(--color-black);
+}
+.border-dark-1 {
+    border: 1px solid var(--color-dark-1);
+}
+.border-dark-2 {
+    border: 1px solid var(--color-dark-2);
+}
+.border-dark-3 {
+    border: 1px solid var(--color-dark-3);
+}
+.border-dark-4 {
+    border: 1px solid var(--color-dark-4);
+}
+.border-primary {
+    border: 1px solid var(--color-primary);
+}
+.border-blue-1 {
+    border: 1px solid var(--color-blue-1);
+}
+.border-blue-2 {
+    border: 1px solid var(--color-blue-2);
+}
+.border-blue-3 {
+    border: 1px solid var(--color-blue-3);
+}
+.border-blue-4 {
+    border: 1px solid var(--color-blue-4);
+}
+.border-white {
+    border: 1px solid var(--color-white);
+}
+
+/* Optional: Default styles for common elements */
+body {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-primary);
+}
+
+/* button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    
+    background: linear-gradient(180deg, var(--color-dark-3), var(--color-dark-4));
+    color: var(--color-white);
+} */
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-blue-1); 
+    text-decoration: underline;
+}
+
+.heading-style{
+    color: var(--color-dark-2);
+    font-weight: bold;
+}
+/* Stylish button with theme color for table View Buttons */
+.btn-view {
+  /* background: linear-gradient(180deg, var(--color-dark-2), var(--color-dark-4));  */
+  background-color: var(--color-dark-2) !important;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 50px; /* Rounded pill shape */
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
+
+.btn-view i {
+  margin-right: 4px; /* Spacing between icon and text */
+}
+
+.btn-view:hover {
+  background: linear-gradient(180deg, var(--color-dark-3), var(--color-dark-4)) !important; /* Reverse dark gradient on hover */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.btn-view:active {
+  transform: translateY(0); /* Button pressed effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+.btn-no:hover, .btn-no:focus {
+  color: var(--color-dark-2);
+  border: 2px solid var(--color-dark-2);
+}
+/* Button outline style */
+
+.btn-outline-view {
+  background-color: transparent !important;
+  color: var(--color-dark-2) !important;
+  border: 2px solid var(--color-dark-2) !important;
+  font-weight: bold !important;
+  padding: 3px 16px !important;
+  border-radius: 50px !important; /* Rounded pill shape */
+  transition: all 0.3s ease !important; /* Smooth transition */
+  box-shadow: none !important; /* No shadow for outline button */
+}
+
+.btn-outline-view:hover {
+  background: var(--color-dark-2) !important; /* Dark background on hover */
+  color: var(--color-white) !important;
+}

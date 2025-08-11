@@ -1,0 +1,30 @@
+.student-modal {
+  z-index: 1050 !important;
+}
+
+.student-modal .modal-dialog {
+  margin-top: 60px;
+}
+
+.student-modal .modal-content {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.student-modal .modal-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.student-modal .modal-footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Ensure modal backdrop is above other elements */
+.modal.student-modal {
+  z-index: 9999999 !important;
+}
+.student-modal .modal-backdrop {
+  z-index: 9999998 !important;
+}

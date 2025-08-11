@@ -1,0 +1,19 @@
+/* Add your styles for forgot-password-complete here */
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+    color: #000 !important;
+  
+}
+
+.text-decoration-none:hover {
+    color: #000 !important;
+    border-bottom: 1px solid #000 !important;
+}
+.btn-hover-pwd:hover{
+text-decoration: underline;
+color: var(--color-dark-2);
+}

@@ -1,0 +1,43 @@
+import React from 'react';
+import { Modal, Button } from 'react-bootstrap';
+
+interface ConfirmationModalProps {
+  show: boolean;
+  onHide: () => void;
+  onConfirm: () => void;
+  title: string;
+  message: string;
+  confirmText?: string;
+  cancelText?: string;
+  variant?: 'danger' | 'primary' | 'warning';
+}
+
+const ConfirmationModal: React.FC<ConfirmationModalProps> = ({
+  show,
+  onHide,
+  onConfirm,
+  title,
+  message,
+  confirmText = 'Confirm',
+  cancelText = 'Cancel',
+  variant = 'danger'
+}) => {
+  return (
+    <Modal show={show} onHide={onHide} centered>
+      <Modal.Header closeButton>
+        <h3 className='heading-style'>{title}</h3>
+      </Modal.Header>
+      <Modal.Body>{message}</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" className='rounded-pill' onClick={onHide}>
+          {cancelText}
+        </Button>
+        <Button className='btn-view rounded-pill' onClick={onConfirm}>
+          {confirmText}
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
+};
+
+export default ConfirmationModal; 

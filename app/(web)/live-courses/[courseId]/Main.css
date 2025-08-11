@@ -1,0 +1,154 @@
+.unit-container .btn.collapsed i.fas.fa-chevron-down {
+    transform: none;
+}
+
+.unit-container .btn i.fas.fa-chevron-down {
+    transition: none;
+}
+
+.card-header .btn:focus {
+    box-shadow: none;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.bg-dark {
+    background-color: #1a2733 !important;
+}
+
+.progress {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+    .display-6 {
+        font-size: calc(1.2rem + 1.5vw);
+    }
+}
+
+/* Improve progress bars on mobile */
+@media (max-width: 576px) {
+    .progress {
+        min-width: 200px;
+    }
+}
+
+/* Better spacing on mobile */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+/* Video aspect ratio container */
+.ratio-16x9 {
+    aspect-ratio: 16/9;
+    background-color: #000;
+}
+
+/* Progress bars */
+.progress {
+    border-radius: 2px;
+}
+
+.progress-bar {
+    background-color: #0d6efd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .h3 {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Timeline Styles */
+.timeline-container {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.timeline-item {
+    position: relative;
+}
+
+.timeline-item:hover .timeline-dot {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover .text-danger {
+    transform: rotate(-10deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .timeline-item {
+        padding-left: 3rem !important;
+    }
+    
+    .timeline-line {
+        left: 18px !important;
+    }
+    
+    .timeline-dot {
+        width: 24px !important;
+        height: 24px !important;
+    }
+    
+    .timeline-content {
+        padding: 0.75rem !important;
+    }
+}
+
+/* Accordion Styles */
+.accordion-button {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.accordion-item {
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 1rem;
+}
+
+.accordion-header {
+    margin: 0;
+}
+
+/* Add these styles */
+.accordion-collapse.show {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.accordion-body {
+    display: block !important;
+    visibility: visible !important;
+}
+
+
+
+
+

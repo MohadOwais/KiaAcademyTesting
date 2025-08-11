@@ -1,0 +1,51 @@
+.unit-container {
+    background: #fff;
+    border-radius: 0.25rem;
+}
+
+.content-section {
+    margin-top: 2rem;
+}
+
+.quiz-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.25rem;
+}
+
+.review-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.25rem;
+}
+
+/* Only keep the chevron animation */
+.btn[aria-expanded="true"] .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.transition-transform {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Prevent content flash */
+.collapse {
+    transition: height 0.35s ease;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+.accordion-border {
+    border-left: 6px solid #40b024 !important;
+    box-shadow: 0 3px 6px #0000001a;
+}

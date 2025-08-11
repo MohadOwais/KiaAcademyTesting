@@ -1,0 +1,30 @@
+.table-cont-sts {
+  width: calc(100vw - 120px);
+  overflow-x: auto;
+  transition: width 0.3s;
+}
+
+@media (min-width: 992px) {
+  .table-cont-sts.sidebar-open {
+    width: calc(100vw - 300px);
+  }
+  .table-cont-sts.sidebar-closed {
+    width: calc(100vw - 120px);
+  }
+}
+@media (max-width: 1850px) {
+  .btn-view {
+    margin-bottom: 3px;
+  }
+}
+.mui-zxdg2z {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/*
+  Ensure modal is always above navbar/sidebar
+*/
+.fade.modal.show{
+  z-index: 9999999999 !important;
+}

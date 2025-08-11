@@ -1,0 +1,99 @@
+/* CourseCard.module.css */
+
+.container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0; /* Start transparent */
+  }
+  100% {
+    transform: translateX(0); /* End at original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.heading {
+  margin-bottom: 40px; /* Space below the heading */
+  color: #3f51b5; /* Text color */
+  font-weight: 700; /* Bold text */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  padding: 10px; /* Space around the text */
+  border-radius: 12px!important; /* Rounded corners */
+  animation: slideIn 0.5s ease-out; /* Apply the slide-in animation */
+}
+
+.cardContainer {
+  position: relative; /* Positioning for the hover card */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%!important;
+  min-width: 100%!important;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 12px!important;
+  height: 450px;
+  transition: transform 2s ease-in-out;
+}
+
+.hoverCard {
+  display: none; /* Initially hide the hover card */
+}
+
+.cardContainer:hover .hoverCard {
+  display: block; /* Show the hover card on hover */
+}
+
+.hoverContent {
+  width: 100%!important; /* Width of the hover card */
+  margin-left: -59px; /* Space between the main card and hover card */
+  opacity: 1; /* Slightly transparent */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.card-media {
+  width: 100% !important;
+  height: 200px !important; /* Set the desired height */
+  object-fit: cover !important; /* This will make sure the image covers the area without stretching */
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.cardMedia {
+  object-fit: cover;
+}
+
+.cardContent {
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.price {
+  margin-top: 16px;
+}

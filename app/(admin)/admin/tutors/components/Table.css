@@ -1,0 +1,27 @@
+.tutor-modal {
+  z-index: 1050 !important;
+}
+
+.tutor-modal .modal-dialog {
+  margin-top: 60px;
+}
+
+.tutor-modal .modal-content {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tutor-modal .modal-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.tutor-modal .modal-footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.dtr-data{
+  display: flex;
+  align-items: center;
+}

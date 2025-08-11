@@ -1,0 +1,46 @@
+/*
+Add to your CSS (e.g. Main.css or a notifications CSS file):
+
+.send-notification-modal .modal-content {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  border-radius: 1.5rem;
+  border: none;
+}
+.send-notification-modal .modal-header {
+  background: linear-gradient(90deg, #2563eb 0%, #6366f1 100%);
+  color: #fff;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.send-notification-modal .modal-footer {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.send-notification-modal .form-control:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 0.2rem rgba(99,102,241,.15);
+}
+.send-notification-modal .btn-primary {
+  background: linear-gradient(90deg, #6366f1 0%, #2563eb 100%);
+  border: none;
+}
+.send-notification-modal .btn-primary:active, .send-notification-modal .btn-primary:focus {
+  background: #2563eb;
+}
+.send-notification-modal .btn-outline-secondary {
+  border-radius: 2rem;
+}
+.send-notification-modal .modal-title i {
+  color: #ffe066;
+}
+.animate__animated.animate__fadeInDown {
+  animation: fadeInDown 0.5s;
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translate3d(0, -40px, 0); }
+  to { opacity: 1; transform: none; }
+}
+*/
+.modal{
+  z-index: 99999999 !important;
+}

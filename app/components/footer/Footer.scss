@@ -1,0 +1,319 @@
+$menuBackground: #fafafa;
+$shadowColor: #5a646c;
+$blue: #1b6697;
+$transparent: #00000000;
+$skyBlue: #1392E3;
+$darkWhite: #e5e6eb;
+$black: #24232C;
+$white: #fafafa;
+$shadowGrey: #bfc7cc;
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    padding: 1em;
+    background-color: $black;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+    height: 100%;
+
+    .first {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+        padding: 0.5em;
+
+        h2 {
+            width: 100%;
+            text-align: center;
+            color: $darkWhite;
+            font-size: 1.8em;
+        }
+
+        form {
+            width: 500px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: $white;
+            padding: 0.3em;
+            border-radius: 80px;
+
+            input {
+                padding: 0.5em;
+                padding-left: 2em;
+                background-color: $white;
+                color: $black;
+                font-size: 1.2em;
+                border: 0;
+                width: 80%;
+                border-radius: 80px 0 0 80px;
+            }
+
+            button {
+                font-size: 1.2em;
+                padding-left: 2em;
+                padding-right: 2em;
+            }
+
+        }
+
+    }
+
+    .second {
+
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .left {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1em;
+            padding: 1em;
+
+            img {
+                background-color: $black;
+                width: 100px;
+                height: 100px;
+                object-fit: contain;
+                object-position: center;
+                border-radius: 100%;
+            }
+
+            p {
+                width: 100%;
+                text-align: left;
+                color: $darkWhite;
+                line-height: 2em;
+                font-size: 1.2em;
+            }
+
+        }
+
+        .right {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1em;
+            padding: 1em;
+            flex-wrap: wrap;
+
+            .footerList {
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                h2 {
+                    font-weight: bold;
+                    font-size: 1.3em;
+                    text-transform: uppercase;
+                    color: $white;
+                    text-align: left;
+                    padding: 0.5em;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: $darkWhite;
+                }
+
+                p {
+                    color: $darkWhite;
+                    font-size: 1.1em;
+                    text-align: left;
+                    cursor: pointer;
+                    padding: 0.5em;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+
+                .footer-social-handles {
+                    font-size: 1.4em;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(max-width:800px) {
+    .footer {
+        .second {
+            .right {
+                .footerList {
+                    p {
+                        font-size: 12px;
+                    }
+
+                    h2 {
+                        font-size: 1.2em;
+                    }
+
+                    .footer-social-handles {
+                        font-size: 1.2em;
+
+                        a {
+                            color: $darkWhite !important;
+                        }
+                    }
+                }
+            }
+
+            .left {
+                p {
+                    font-size: 12px;
+                }
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+
+        .first {
+            h2 {
+                font-size: 1em;
+            }
+
+            form {
+                padding: 0.3em;
+
+                input,
+                button {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:580px) {
+    .footer {
+        flex-direction: column-reverse;
+
+        .second {
+            flex-direction: column;
+
+            .right {
+                width: 100%;
+
+                .footerList {
+                    p {
+                        font-size: 12px;
+                    }
+
+                    h2 {
+                        font-size: 1.2em;
+                    }
+                }
+            }
+
+            .left {
+                p {
+                    font-size: 12px;
+                }
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+
+        .first {
+            h2 {
+                font-size: 1em;
+            }
+
+            form {
+                padding: 0.3em;
+                width: 100%;
+
+                input,
+                button {
+                    font-size: 0.8em;
+                }
+
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.social-icons {
+    font-size: 1.4rem;
+    
+    a {
+        color: #fff;
+        transition: opacity 0.2s;
+        
+        &:hover {
+            opacity: 0.8;
+            color: #fff;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        .container {
+            text-align: center;
+        }
+        
+        .footer-brand {
+            margin-bottom: 2rem;
+        }
+        
+        .footer-links {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        .social-icons {
+            justify-content: center;
+        }
+        
+        .footer-links {
+            h5 {
+                font-size: 1.1rem;
+            }
+            
+            a {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

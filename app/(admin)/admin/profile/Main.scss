@@ -1,0 +1,9 @@
+.bio-cont {
+    width: 616px;
+}
+
+@media(max-width: 960px) {
+    .bio-cont {
+        width: 300px;
+    }
+}

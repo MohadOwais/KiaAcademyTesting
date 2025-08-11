@@ -1,0 +1,44 @@
+/* @import "../../style.css"; */
+
+.font-bold>span {
+    font-weight: bold !important;
+}
+
+/* .MuiDrawer-paper {
+    background-color: var(--color-dark-2) !important;
+} */
+
+.MuiDrawer-paper * {
+    color: #fff !important;
+}
+
+.MuiDrawer-paper ul li {
+    border-bottom: 1px solid #ffffff29  !important;
+}
+
+
+
+.editForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 2em;
+    color: #454545;
+}
+
+.md-editor {
+    width: 100%;
+}
+
+.ant-upload-wrapper {
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 16px;
+    transition: background-color 5s ease;
+    border-radius: 100px;
+    margin: 16px 0;
+}

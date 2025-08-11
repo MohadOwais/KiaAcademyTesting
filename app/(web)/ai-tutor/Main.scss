@@ -1,0 +1,18 @@
+$blue: #1b6697;
+$transparent: #00000000;
+$black: #24232C;
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+
+}

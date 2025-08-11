@@ -1,0 +1,27 @@
+.institution-modal {
+  z-index: 1050 !important;
+}
+
+.institution-modal .modal-dialog {
+  margin-top: 60px;
+}
+
+.institution-modal .modal-content {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.institution-modal .modal-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.institution-modal .modal-footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Ensure modal backdrop is above other elements */
+.modal-backdrop {
+  z-index: 1040 !important;
+} 

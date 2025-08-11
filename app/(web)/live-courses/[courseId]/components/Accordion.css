@@ -1,0 +1,147 @@
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  color: var(--bs-primary);
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.calendar-card {
+  width: 65px;
+  height: 70px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.calendar-header {
+  background-color: var(--color-dark-2); /* Bootstrap blue-500 */
+  color: white;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.calendar-pin {
+  width: 2px;
+  height: 2px;
+  background-color: var(--color-dark-2);
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.calendar-date {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 7px;
+  color: #111;
+}
+
+.lecture-item:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+.lecture-item:last-child {
+  border-bottom: none !important;
+}
+
+.learning-objectives {
+  border-left: 4px solid var(--bs-primary);
+}
+
+.content-wrapper {
+  border: 1px solid #e9ecef;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.unit-meta {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.accordion-button::after {
+  /* background-color: var(--bs-primary); */
+  border-radius: 50%;
+  padding: 0.75rem;
+  background-position: center;
+  background-size: 10px;
+}
+
+.timeline-line {
+  position: absolute;
+  /* Ensure it is positioned correctly */
+  left: 5.5%;
+  /* Use percentage for responsiveness */
+  top: 20px;
+  bottom: -45px;
+  width: 2px;
+  background: #d5d2d2;
+  z-index: 0;
+}
+
+@media (max-width: 1200px) {
+  .timeline-line {
+    left: 5.5%;
+    /* Adjust for smaller screens */
+    width: 2px;
+    /* Slightly reduce width for smaller devices */
+  }
+}
+
+@media (max-width: 1024px) {
+  .timeline-line {
+    left: 8% !important;
+    /* Adjust for smaller screens */
+    width: 2px;
+    /* Slightly reduce width for smaller devices */
+    top: 35px !important;
+    bottom: -45px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 10% !important;
+    /* Adjust for smaller screens */
+    width: 1.5px;
+    /* Slightly reduce width for smaller devices */
+    top: 45px !important;
+    bottom: -55px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .timeline-line {
+    left: 15% !important;
+    /* Further adjust for extra small screens */
+    width: 1px;
+    /* Further reduce width for extra small devices */
+    top: 45px !important;
+    bottom: -55px !important;
+  }
+  .calendar-card {
+    left: 20px !important;
+  }
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background: #ece8e8;
+  border: 2px solid #d5d2d2;
+  z-index: 1;
+  flex-shrink: 0;
+}

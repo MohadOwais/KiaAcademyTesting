@@ -1,0 +1,571 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/@fontsource/league-spartan/300.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/* league-spartan-vietnamese-300-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/_next/static/media/league-spartan-vietnamese-300-normal.ba18e297.woff2) format('woff2'), url(/_next/static/media/league-spartan-vietnamese-300-normal.567351da.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* league-spartan-latin-ext-300-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/_next/static/media/league-spartan-latin-ext-300-normal.a24a8e6f.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-ext-300-normal.e424ac98.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* league-spartan-latin-300-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/_next/static/media/league-spartan-latin-300-normal.e81aed28.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-300-normal.ed1d7c39.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/@fontsource/league-spartan/400.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/* league-spartan-vietnamese-400-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/league-spartan-vietnamese-400-normal.0a187d4e.woff2) format('woff2'), url(/_next/static/media/league-spartan-vietnamese-400-normal.35142ead.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* league-spartan-latin-ext-400-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/league-spartan-latin-ext-400-normal.8e1b4259.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-ext-400-normal.26549378.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* league-spartan-latin-400-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/league-spartan-latin-400-normal.5f323741.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-400-normal.df067b00.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/@fontsource/league-spartan/500.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/* league-spartan-vietnamese-500-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/league-spartan-vietnamese-500-normal.15c05d49.woff2) format('woff2'), url(/_next/static/media/league-spartan-vietnamese-500-normal.93a5e46a.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* league-spartan-latin-ext-500-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/league-spartan-latin-ext-500-normal.de53dbc7.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-ext-500-normal.fef6aebe.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* league-spartan-latin-500-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/league-spartan-latin-500-normal.52af8166.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-500-normal.a5fcfa0d.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/@fontsource/league-spartan/700.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/* league-spartan-vietnamese-700-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/league-spartan-vietnamese-700-normal.453b3028.woff2) format('woff2'), url(/_next/static/media/league-spartan-vietnamese-700-normal.50316668.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* league-spartan-latin-ext-700-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/league-spartan-latin-ext-700-normal.03aaa3fd.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-ext-700-normal.02523273.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* league-spartan-latin-700-normal */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/league-spartan-latin-700-normal.3840de72.woff2) format('woff2'), url(/_next/static/media/league-spartan-latin-700-normal.6b958f99.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/style.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+:root {
+    --color-black: #000000;
+    --color-dark-1: #061e2f;
+    --color-dark-2: #0a3552;
+    --color-dark-3: #0f4b76;
+    --color-dark-4: #136299;
+    --color-primary: #1778bc;
+    --color-blue-1: #4693ca;
+    --color-blue-2: #74aed7;
+    --color-blue-3: #a3c9e4;
+    --color-blue-4: #d1e4f2;
+    --color-white: #ffffff;
+}
+
+.bg-gradient12 {
+    /* background-color: var(--color-dark-2) !important; */
+    background: linear-gradient(180deg, var(--color-dark-2), var(--color-dark-4)) !important;
+    /* background: linear-gradient(90deg, var(--color-primary), var(--color-blue-1)) !important; */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-2)) !important; */
+    /* background: linear-gradient(135deg, var(--color-dark-3), var(--color-dark-4)) !important; */
+    /* background: linear-gradient(-135deg, var(--color-primary), var(--color-blue-2)) !important; */
+    /* background: linear-gradient(135deg, var(--color-blue-2), var(--color-blue-3)) !important; */
+    /* background: linear-gradient(135deg, var(--color-blue-4), var(--color-white)) !important; */
+    /* background: linear-gradient(135deg, var(--color-white), var(--color-black)) !important; */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-3)) !important; */
+    /* background: linear-gradient(135deg, var(--color-primary), var(--color-dark-1)) !important; */
+}
+
+.bg-gradient1{
+    /* background-color: var(--color-dark-2) !important; */
+    background: linear-gradient(135deg, var(--color-primary), var(--color-dark-2)) !important;
+
+    /* Gradient 1: Dark to primary to blue-1 */
+    /* background: linear-gradient(135deg, var(--color-dark-2), var(--color-primary), var(--color-blue-1)) !important; */
+
+    /* Gradient 2: Dark range */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-3), var(--color-dark-4)) !important; */
+
+    /* Gradient 3: Dark-3 to primary to blue-2 */
+    /* background: linear-gradient(135deg, var(--color-dark-3), var(--color-primary), var(--color-blue-2)) !important; */
+
+    /* Gradient 4: Primary to blue-1 to blue-3 */
+    /* background: linear-gradient(135deg, var(--color-primary), var(--color-blue-1), var(--color-blue-3)) !important; */
+
+    /* Gradient 5: Dark-2 to primary to blue-2 to blue-4 */
+    /* background: linear-gradient(135deg, var(--color-dark-2), var(--color-primary), var(--color-blue-2), var(--color-blue-4)) !important; */
+
+    /* Gradient 6: Dark-1 to dark-3 to blue-1 to blue-3 */
+    /* background: linear-gradient(135deg, var(--color-dark-1), var(--color-dark-3), var(--color-blue-1), var(--color-blue-3)) !important; */
+
+    /* Gradient 7: Dark-4 to primary to blue-2 to white */
+    /* background: linear-gradient(135deg, var(--color-dark-4), var(--color-primary), var(--color-blue-2), var(--color-white)) !important; */
+
+    /* Gradient 8: Primary to blue-1 to blue-3 to blue-4 */
+    /* background: linear-gradient(135deg, var(--color-primary), var(--color-blue-1), var(--color-blue-3), var(--color-blue-4)) !important; */
+
+    /* Gradient 9: Dark-2 to dark-4 to primary to blue-1 */
+    /* background: linear-gradient(135deg, var(--color-dark-2), var(--color-dark-4), var(--color-primary), var(--color-blue-1)) !important; */
+
+    /* Gradient 10: Dark-3 to primary to blue-2 to white */
+    /* background: linear-gradient(135deg, var(--color-dark-3), var(--color-primary), var(--color-blue-2), var(--color-white)) !important; */
+}
+/* Background color classes */
+.bg-black {
+    background-color: var(--color-black) !important;
+}
+.bg-dark-1 {
+    background-color: var(--color-dark-1) !important;
+}
+.bg-dark-2 {
+    background-color: var(--color-dark-2) !important;
+}
+.bg-dark-3 {
+    background-color: var(--color-dark-3) !important;
+}
+.bg-dark-4 {
+    background-color: var(--color-dark-4) !important ;
+}
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+.bg-blue-1 {
+    background-color: var(--color-blue-1) !important;
+}
+.bg-blue-2 {
+    background-color: var(--color-blue-2) !important;
+}
+.bg-blue-3 {
+    background-color: var(--color-blue-3) !important;
+}
+.bg-blue-4 {
+    background-color: var(--color-blue-4) !important;
+}
+.bg-white {
+    background-color: var(--color-white) !important;
+}
+
+/* Text color classes */
+.text-black {
+    color: var(--color-black) !important;
+}
+.text-dark-1 {
+    color: var(--color-dark-1) !important;
+}
+.text-dark-2 {
+    color: var(--color-dark-2) !important;
+}
+.text-dark-3 {
+    color: var(--color-dark-3) !important;
+}
+.text-dark-4 {
+    color: var(--color-dark-4) !important;
+}
+.text-primary {
+    color: var(--color-primary) !important;
+}
+.text-blue-1 {
+    color: var(--color-blue-1) !important;
+}
+.text-blue-2 {
+    color: var(--color-blue-2) !important;
+}
+.text-blue-3 {
+    color: var(--color-blue-3) !important;
+}
+.text-blue-4 {
+    color: var(--color-blue-4) !important;
+}
+.text-white {
+    color: var(--color-white) !important;
+}
+
+/* Border color classes */
+.border-black {
+    border: 1px solid var(--color-black);
+}
+.border-dark-1 {
+    border: 1px solid var(--color-dark-1);
+}
+.border-dark-2 {
+    border: 1px solid var(--color-dark-2);
+}
+.border-dark-3 {
+    border: 1px solid var(--color-dark-3);
+}
+.border-dark-4 {
+    border: 1px solid var(--color-dark-4);
+}
+.border-primary {
+    border: 1px solid var(--color-primary);
+}
+.border-blue-1 {
+    border: 1px solid var(--color-blue-1);
+}
+.border-blue-2 {
+    border: 1px solid var(--color-blue-2);
+}
+.border-blue-3 {
+    border: 1px solid var(--color-blue-3);
+}
+.border-blue-4 {
+    border: 1px solid var(--color-blue-4);
+}
+.border-white {
+    border: 1px solid var(--color-white);
+}
+
+/* Optional: Default styles for common elements */
+body {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-primary);
+}
+
+/* button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    
+    background: linear-gradient(180deg, var(--color-dark-3), var(--color-dark-4));
+    color: var(--color-white);
+} */
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-blue-1); 
+    text-decoration: underline;
+}
+
+.heading-style{
+    color: var(--color-dark-2);
+    font-weight: bold;
+}
+/* Stylish button with theme color for table View Buttons */
+.btn-view {
+  /* background: linear-gradient(180deg, var(--color-dark-2), var(--color-dark-4));  */
+  background-color: var(--color-dark-2) !important;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 50px; /* Rounded pill shape */
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
+
+.btn-view i {
+  margin-right: 4px; /* Spacing between icon and text */
+}
+
+.btn-view:hover {
+  background: linear-gradient(180deg, var(--color-dark-3), var(--color-dark-4)) !important; /* Reverse dark gradient on hover */
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.btn-view:active {
+  transform: translateY(0); /* Button pressed effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+.btn-no:hover, .btn-no:focus {
+  color: var(--color-dark-2);
+  border: 2px solid var(--color-dark-2);
+}
+/* Button outline style */
+
+.btn-outline-view {
+  background-color: transparent !important;
+  color: var(--color-dark-2) !important;
+  border: 2px solid var(--color-dark-2) !important;
+  font-weight: bold !important;
+  padding: 3px 16px !important;
+  border-radius: 50px !important; /* Rounded pill shape */
+  transition: all 0.3s ease !important; /* Smooth transition */
+  box-shadow: none !important; /* No shadow for outline button */
+}
+
+.btn-outline-view:hover {
+  background: var(--color-dark-2) !important; /* Dark background on hover */
+  color: var(--color-white) !important;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); */
+
+/* this file contains color variables and font-face definitions */
+
+/* Custom font-face definitions */
+@font-face {
+  font-family: "72 Brand Variable";
+  src: url("/fonts/72BrandVariable.woff2") format("woff2"); /* Corrected path */
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "72Mono";
+  src: url("/fonts/72Mono-Regular.woff2") format("woff2"); /* Corrected path */
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SAP-icons;
+  src: url("/fonts/SAP-icons-SVG.woff2") format("woff2"); /* Corrected path */
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Custom variables for color and fonts */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font-family: "72 Brand Variable", Arial, Helvetica, sans-serif;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  overflow-x: hidden !important;
+  font-family: var(--font-family) !important;
+}
+
+* {
+  font-family: var(--font-family) !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  accent-color: #000000;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.buttonLoader {
+  width: 18px;
+  height: 18px;
+  border: 2px solid;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  margin-right: 16px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar::-moz-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: #282730;
+  color: #fff;
+}
+
+.ant-drawer.ant-drawer-right {
+  z-index: 9999 !important;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 1px;
+  color: #000;
+}
+::-moz-scrollbar {
+  display: none;
+  width: 1px;
+}
+
+div.dt-container .dt-paging .dt-paging-button{
+  padding:0% !important;
+}
+.bg-blacked:first-child{
+  width:100%;
+}
+
+.modal{
+  z-index: 9999 !important;
+}
+.table-cont-sts {
+  width: calc(100vw - 120px);
+  overflow-x: auto;
+  transition: width 0.3s;
+}
+
+@media (min-width: 992px) {
+  .table-cont-sts.sidebar-open {
+    width: calc(100vw - 300px);
+  }
+  .table-cont-sts.sidebar-closed {
+    width: calc(100vw - 120px);
+  }
+}
+/* Stylish tab buttons with theme color */
+
+.notification-pill-btn {
+  border-radius: 999px;
+  border: 2px solid var(--color-dark-2);
+  background: #fff;
+  color: var(--color-dark-2);
+  font-weight: 600;
+  padding: 8px 28px;
+  margin-right: 10px;
+  transition: all 0.2s;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border-color: var(--color-dark-2);
+}
+.notification-pill-btn.active {
+  background: var(--color-dark-2);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 600px) {
+  .notification-pill-btn {
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    width: 100%;
+    min-width: 0;
+    display: block;
+    text-align: center;
+  }
+  .notification-tabs-responsive {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0;
+  }
+}
+
+

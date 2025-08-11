@@ -1,0 +1,6 @@
+.reg-btn{
+    border: 2px solid var(--color-dark-2) !important;
+}.reg-btn:hover{
+    background-color: var(--color-dark-2) !important;
+     color: white !important;
+}

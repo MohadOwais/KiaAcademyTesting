@@ -1,0 +1,8 @@
+export const companyName = "KI Academy"
+export const primaryColor = "#24232C"
+export const email = "contact@kiacademy.in"
+export const facebookUrl = "https://www.facebook.com/profile.php?id=61570523621659"
+export const linkedinUrl = "https://www.linkedin.com/in/ki-academy-791842342/"
+export const twitterUrl = "https://x.com/kiacademyedu"
+export const instagramUrl = "https://www.instagram.com/kiacademyedu/"
+export const youtubeUrl = "https://www.youtube.com/channel/UCcpyvh4aQTpFjQdI6sFM8fQ"
